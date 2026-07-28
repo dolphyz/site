@@ -1538,3 +1538,11 @@ a.footer-naslovi:hover{
     padding: 0 20px 20px;
   }
 }
+
+
+
+[data-aos] {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}

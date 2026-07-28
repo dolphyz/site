@@ -105,9 +105,9 @@
 
 <section class="o-nama" id="o-nama">
   <div class="o-nama-div">
-    <div class="workforce-head text-center">
-      <p class="eyebrow center" data-aos="fade-down" data-aos-duration="1200">O nama</p>
-      <h2 class="section-title" data-aos="fade-right" data-aos-duration="1200">ISKUSTVO KOJE PRAVI RAZLIKU</h2>
+    <div class="workforce-head text-center" data-aos="fade-down" data-aos-duration="1200">
+      <p class="eyebrow center">O nama</p>
+      <h2 class="section-title">ISKUSTVO KOJE PRAVI RAZLIKU</h2>
     </div>
 
     <div class="o-nama-tekst-slika-div">
@@ -177,8 +177,8 @@
     </div>
 
 
-    <div class="trade-grid">
-      <article class="trade-card" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300" >
+    <div class="trade-grid" data-aos-duration="1300" data-aos-delay="300">
+      <article class="trade-card" data-aos="fade-up">
         <div class="card-corner" aria-hidden="true"></div>
         <div class="trade-photo">
           <img src="images/moleraj.jpg" alt="Moler farba zid valjkom">
@@ -189,7 +189,7 @@
         </div>
       </article>
 
-      <article class="trade-card" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
+      <article class="trade-card" data-aos="fade-up">
         <div class="card-corner" aria-hidden="true"></div>
         <div class="trade-photo">
           <img src="images/gips.jpg" alt="Radnik gletuje zid gletericom">
@@ -200,7 +200,7 @@
         </div>
       </article>
 
-      <article class="trade-card" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
+      <article class="trade-card" data-aos="fade-up">
         <div class="card-corner" aria-hidden="true"></div>
         <div class="trade-photo">
           <!-- Placeholder slika — zameni pravom fotografijom za krečenje -->
@@ -212,7 +212,7 @@
         </div>
       </article>
 
-      <article class="trade-card" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
+      <article class="trade-card" data-aos="fade-up">
         <div class="card-corner" aria-hidden="true"></div>
         <div class="trade-photo">
           <!-- Placeholder slika — zameni pravom fotografijom za zidanje -->
@@ -474,7 +474,8 @@
     AOS.init({
         duration: 800,
         offset: window.innerWidth <= 768 ? -50 : 50,
-        once: true
+        once: true,
+        disableMutationObserver: true,
         
     });
 </script>
