@@ -44,7 +44,12 @@
     box-shadow:0 6px 24px -10px rgba(0,0,0,.4);
     padding:12px 0;
   }
-  .header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;}
+  .header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
   .logo{display:flex;align-items:center;gap:10px;font-family:var(--ff-display);font-size:1.28rem;font-weight:700;color:var(--white,#fff);letter-spacing:.03em;}
   .logo small{display:block;font-family:var(--ff-body);font-size:.6rem;font-weight:600;letter-spacing:.18em;color:var(--orange-500);margin-top:1px;}
 
@@ -98,6 +103,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .mobile-panel.is-open{
     transform:translateX(0);
@@ -144,6 +150,7 @@
   .mobile-panel-cta{
     flex: none;
     margin-top: 16px;
+    margin-bottom: 20%;
   }
 
   .scrim{
@@ -780,7 +787,6 @@ a.footer-naslovi:hover{
     background:var(--orange-500);
     color:var(--navy-950);
     box-shadow:0 10px 24px -10px rgba(242,146,26,.55);
-    margin-bottom: 10%;
   }
   .btn-primary:hover{background:var(--orange-600);}
   .btn-dark{
